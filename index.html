@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Momentum</title>
+    <meta name="description" content="Some time, some widgets, some fun"> 
+    <link rel="stylesheet" href="./css/preloader.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/config.css">
+    <link rel="stylesheet" href="./css/player.css">
+    <link rel="stylesheet" href="./css/todo.css">
+    <link rel="stylesheet" href="./css/whether.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <link rel="stylesheet" href="./css/date_and_greetings.css">
+    <link rel="stylesheet" href="./css/quote.css">
+    <link rel="stylesheet" href="./css/animations.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="icon" href="./assets/favicon.ico">
+</head>
+<body>
+    <div class="preloader">
+        <span class="preloader-text"></span>
+        <div class="preloader-circles">
+            <div class="preloader-circle1">
+                <div class="preloader-circle2"></div>
+            </div>
+        </div>
+    </div>
+    <div class="body-overlay hidden">
+        <div class="config-box">
+            <section>
+                <div class="config-header">Language</div>
+                <div class="language-box">
+                    <input class="languge-en" type="radio" name="language" value="en" id="lang-en" checked><label for="lang-en">English</label>
+                    <input class="languge-ru" type="radio" name="language" value="ru" id="lang-ru"><label for="lang-ru">Русский</label>
+                </div>
+            </section>
+            <section>
+                <div class="config-header">Background</div>
+                <div class="bg-source">
+                    <input class="collection-image" type="radio" name="image-source" value="collection" id="collection-img" checked><label for="collection-img"><span class="bg-text"></span></label>
+                    <input class="flickr-image" type="radio" name="image-source" value="flickr" id="flickr-img"><label for="flickr-img">Flickr</label>
+                    <input class="upsplash-image" type="radio" name="image-source" value="upsplash" id="upsplash-img"><label for="upsplash-img">Upsplash</label>
+                </div>
+                <input class="tags" type="text" name="tags" id="tags">
+            </section>
+            <section>
+                <div class="config-header">Widgets</div>
+            <ul class="widget-blocks">
+                <li class="widget-block">
+                    <div class="switcher block-switcher checked">
+                        <div class="switch-point on-off"></div>
+                    </div>
+                    <div class="config-text">Music player</div>
+                </li>
+                <li class="widget-block">
+                    <div class="switcher block-switcher checked">
+                        <div class="switch-point on-off"></div>
+                    </div>
+                    <div class="config-text">ToDo List</div>
+                </li>
+                <li class="widget-block">
+                    <div class="switcher block-switcher checked">
+                        <div class="switch-point on-off"></div>
+                    </div>
+                    <div class="config-text">Wether</div>
+                </li>
+                <li class="widget-block">
+                    <div class="switcher block-switcher checked">
+                        <div class="switch-point on-off"></div>
+                    </div>
+                    <div class="config-text">Time and date</div>
+                </li>
+                <li class="widget-block">
+                    <div class="switcher block-switcher checked">
+                        <div class="switch-point on-off"></div>
+                    </div>
+                    <div class="config-text">Greetings</div>
+                </li>
+                <li class="widget-block">
+                    <div class="switcher block-switcher checked">
+                        <div class="switch-point on-off"></div>
+                    </div>
+                    <div class="config-text">Famous qoutes</div>
+                </li>
+            </ul>
+            </section>
+        </div>
+    </div>
+    <header>
+        <div class="player-widget block">
+            <div class="player-box">
+                <div class="now-playing-box">
+                    <div class="now-playing-cover">
+                        <div class="now-plaing-box">
+                            <div class="now-playing"></div>
+                            <div class="now-playing-author"></div>
+                        </div>
+                        <div class="player-controls">
+                            <button class="button audio-prev"></button>
+                            <button class="button play-btn play"></button>
+                            <button class="button audio-next"></button>
+                        </div>
+                        <div class="timeline-bar">
+                            <div class="progress-bar"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="volume-playlist-box">
+                    <div class="time-box">
+                        <div class="current-time">00:00</div>
+                        <div class="divider">/</div>
+                        <div class="song-length"></div>
+                    </div>
+                    <div class="player-volume">
+                        <button class="button volume"></button>
+                        <div class="volume-bar">
+                            <div class="volume-level"></div>
+                        </div>
+                    </div>
+                    <button class="button playlist-hidden"></button>
+                    <div class="playlist-box hidden">
+                        <ul class="playlist"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="todo-widget block">
+            <div class="todo-header-box">
+                <div class="todo-input-box">
+                    <input class="todo-input" type="text">
+                    <button class="button todo-add"></button>
+                </div>
+                <div class="todo-buttons-box">
+                    <div class="todo-calculates">
+                        <div class="todo-complete"></div>
+                        <div class="divider">/</div>
+                        <div class="todo-recent"></div>
+                    </div>
+                    <div class="todo-buttons">
+                        <button class="button todo-clear"></button>
+                        <button class="button todo-hidden"></button>
+                    </div>
+                </div>
+                <div class="todo-list-box hidden">
+                    <ul class="todo-list"></ul>
+                </div>
+            </div>
+        </div>
+        <div class="wether-widget block">
+            <input class="city" type="text">
+            <div class="city-error disabled"></div>
+            <div class="wether-items">
+                <div class="wether-basis">
+                    <i class="weather-icon"></i>
+                    <div class="temperature"></div>
+                </div>
+                <div class="wether-text">
+                    <div class="weather-description"></div>
+                    <div class="wind-speed"></div>
+                    <div class="humidity"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="date-widget block">
+            <div class="time"></div>
+            <div class="date"></div>
+        </div>
+        <div class="greetings-widget block">
+            <div class="greetings">
+                <div class="hello"></div>
+                <input class="name" type="text">
+                <span class="name-length"></span>
+            </div>
+        </div>
+        <div class="slider-buttons">
+            <button class="button slider-left"></button>
+            <button class="button slider-right"></button>
+        </div>
+    </main>
+    <footer>
+        <div class="quote-widget block">
+            <button class="button quote-reset"></button>
+            <div class="quote">
+                <div class="quote-text"></div>
+                <div class="quote-author"></div>
+            </div>
+        </div>
+    </footer>
+    <div class="config-button">
+        <button class="button config-switcher"></button>
+    </div>
+    <script src="./js/translation.js"></script>
+    <script src="./js/config.js"></script>
+    <script src="./js/date_and_time.js"></script>
+    <script src="./js/slider.js"></script>
+    <script type="module" src="./js/player.js"></script>
+    <script src="./js/todo.js"></script>
+    <script src="./js/wether.js"></script>
+    <script src="./js/greeting_name.js"></script>
+    <script src="./js/quotes.js"></script>
+    <script src="./js/local_storage.js"></script>
+    <script src="./js/selfgrade.js"></script>
+</body>
+</html>

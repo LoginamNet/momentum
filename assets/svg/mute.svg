@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="14"
+   height="14"
+   viewBox="0 0 14 14"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="mute.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     width="14px"
+     inkscape:zoom="11.444444"
+     inkscape:cx="3.2330097"
+     inkscape:cy="2.1407767"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="-Round-/-AV-/-skip_next-8"
+     borderlayer="true"
+     inkscape:showpageshadow="false" />
+  <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">volume_up</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="Icons"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     transform="matrix(0.77602564,0,0,0.81850354,0.02316976,-0.32823827)">
+    <g
+       id="Rounded"
+       transform="translate(-817,-997)">
+      <g
+         id="AV"
+         transform="translate(100,852)">
+        <g
+           id="-Round-/-AV-/-volume_up"
+           transform="translate(714,142)">
+          <g
+             id="g8">
+            <rect
+               id="Rectangle-Copy-86"
+               x="0"
+               y="0"
+               width="24"
+               height="24" />
+            <path
+               d="m 3,8.0784255 v 7.8431495 c 0,0.55 0.45,1 1,1 h 3 l 3.29,3.29 c 0.63,0.63 1.71,0.18 1.71,-0.71 V 4.4884255 c 0,-0.89 -1.08,-1.34 -1.71,-0.71 l -3.29,3.3 H 4 c -0.55,0 -1,0.45 -1,1 z"
+               id="🔹Icon-Color"
+               fill="#1d1d1d"
+               sodipodi:nodetypes="ssscsssccss"
+               style="fill:#ffffff;fill-opacity:1" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <metadata
+     id="metadata837">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>volume_up</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="Icons-2"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd"
+     transform="matrix(0,1.1618875,-1.1618875,0,22.874238,1.3733352)">
+    <g
+       id="Rounded-0"
+       transform="translate(-548,-1000)">
+      <g
+         id="AV-5"
+         transform="translate(100,852)">
+        <g
+           id="-Round-/-AV-/-skip_next-8"
+           transform="translate(442,142)">
+          <g
+             id="g8-8">
+            <rect
+               id="Rectangle-Copy-52-4"
+               x="0"
+               y="0"
+               width="24"
+               height="24" />
+          </g>
+          <path
+             d="m 12.011729,13.951147 -3.4145955,3.370162 c -0.3914458,0.386354 -0.3889087,1.025305 0,1.414213 0.3889088,0.388909 1.022766,0.386354 1.4142135,0 l 3.414596,-3.370161 c 0.391445,-0.386355 0.388908,-1.025305 0,-1.414214 -0.388909,-0.388908 -1.022766,-0.386354 -1.414214,0 z"
+             id="🔹Icon-Color-5"
+             fill="#1d1d1d"
+             style="fill:#ffffff;fill-opacity:1"
+             sodipodi:nodetypes="sssssss" />
+          <path
+             d="m 8.6292843,15.354829 3.3701607,3.414596 c 0.386355,0.391445 1.025305,0.388908 1.414214,0 0.388908,-0.388909 0.386352,-1.022766 -1e-6,-1.414213 l -3.370161,-3.414596 c -0.3863545,-0.391446 -1.0253047,-0.388909 -1.4142127,-1e-6 -0.3889087,0.388909 -0.3863539,1.022766 0,1.414214 z"
+             id="🔹Icon-Color-5-6"
+             fill="#1d1d1d"
+             style="fill:#ffffff;fill-opacity:1"
+             sodipodi:nodetypes="sssssss" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

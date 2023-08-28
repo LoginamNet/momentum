@@ -1,0 +1,143 @@
+/*-------------------to-do-------------------*/
+
+.todo-header-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+
+.todo-input-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.todo-input {
+    width: 100%;
+    border-bottom: 1px solid coral;
+}
+
+.todo-buttons-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 15px;
+    background-color: rgba(32, 32, 32, 0.2);
+}
+
+
+.todo-mini {
+    background-position: center;
+}
+
+.todo-add {
+    background-image: url('../assets/svg/add.svg');
+}
+
+.todo-clear {
+    background-image: url('../assets/svg/remove_list.svg');
+}
+
+.todo-hidden {
+    position: relative;
+    z-index: 200;
+    background-image: url('../assets/svg/tasklist_show.svg');
+}
+
+.todo-shown {
+    background-image: url('../assets/svg/tasklist_hide.svg');
+}
+
+.todo-calculates {
+    display: flex;
+}
+
+.todo-buttons {
+    display: flex;
+    gap: 15px;       
+}
+
+.todo-list-box {
+    z-index: 50;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-30px);
+    transition: 0.3s;
+}
+
+.todo-list {
+    display: flex;
+    flex-direction: column;
+    max-height: 215%;
+    font-size: 1rem;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align: start;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.todo-list li:nth-child(2n+1) {
+    background-color: rgba(32, 32, 32, 0.2);
+}
+
+.todo-list::-webkit-scrollbar {
+    width: 6px;
+}
+  
+.todo-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+.todo-list::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-right: solid 6px coral;
+    opacity: 0.8;
+}
+
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px 15px 10px 15px;
+    font-size: 0.9rem;
+}
+
+.todo-text {
+    overflow-wrap: break-word;
+    width: 80%;
+    transition: 0.3s;
+}
+
+.todo-item-buttons {
+    display: flex;
+    gap: 15px;
+    transition: 0.3s;
+}
+
+.todo-mini {
+    width: 1rem;
+    height: 1rem;
+    background-position: center;
+    background-size: 1rem 1rem;
+}
+
+.todo-done {
+    background-image: url('../assets/svg/done.svg');
+}
+
+.todo-delete {
+    background-image: url('../assets/svg/delete.svg');
+}
+
+.todo-item-done {
+    text-decoration: line-through;
+    color: rgba(255, 255, 255, 0.5);
+}

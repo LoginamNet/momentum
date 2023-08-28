@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="14"
+   height="14"
+   viewBox="0 0 14 14"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="remove_list.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:zoom="20.809143"
+     inkscape:cx="1.0572276"
+     inkscape:cy="5.1659984"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Icons"
+     units="mm"
+     width="14px" />
+  <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">playlist_play</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="Icons"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="Rounded"
+       transform="translate(-105,-999)">
+      <g
+         id="AV"
+         transform="translate(100,852)">
+        <g
+           id="-Round-/-AV-/-playlist_play"
+           transform="translate(0,142)">
+          <g
+             id="g8">
+            <rect
+               id="Rectangle-Copy-60"
+               x="0"
+               y="0"
+               width="24"
+               height="24" />
+            <path
+               d="m 6,9 h 10 c 0.55,0 1,0.45 1,1 0,0.55 -0.45,1 -1,1 H 6 C 5.45,11 5,10.55 5,10 5,9.45 5.45,9 6,9 Z M 6,5 h 10 c 0.55,0 1,0.45 1,1 0,0.55 -0.45,1 -1,1 H 6 C 5.45,7 5,6.55 5,6 5,5.45 5.45,5 6,5 Z m 0,8 h 6 c 0.55,0 1,0.45 1,1 0,0.55 -0.45,1 -1,1 H 6 C 5.45,15 5,14.55 5,14 5,13.45 5.45,13 6,13 Z"
+               id="🔹Icon-Color"
+               fill="#1d1d1d"
+               sodipodi:nodetypes="sssssssssssssssssssss"
+               style="fill:#ffffff;fill-opacity:1" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <path
+       d="M 8.9540499,12.5481 12.549809,8.9523424 c 0.32961,-0.3296111 0.868974,-0.3296111 1.198585,0 0.329612,0.3296112 0.329612,0.8689746 0,1.1985866 l -3.595758,3.595758 c -0.3296112,0.329611 -0.8689749,0.329611 -1.1985861,0 -0.3296111,-0.329612 -0.3296111,-0.868975 0,-1.198587 z"
+       style="fill:#ffffff;stroke-width:0.847528;fill-opacity:1"
+       id="path973" />
+    <path
+       d="m 10.15205,8.9522208 3.595759,3.5957592 c 0.329611,0.32961 0.329611,0.868974 0,1.198585 -0.329611,0.329612 -0.868975,0.329612 -1.198587,0 L 8.9534637,10.150807 c -0.329611,-0.3296112 -0.329611,-0.8689752 0,-1.1985862 0.329612,-0.329611 0.868975,-0.329611 1.1985863,0 z"
+       style="fill:#ffffff;stroke-width:0.847528;fill-opacity:1"
+       id="path973-9" />
+  </g>
+  <metadata
+     id="metadata999">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>playlist_play</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

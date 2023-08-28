@@ -1,0 +1,64 @@
+/*-------------------whether-------------------*/
+
+.wether-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.city {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+    text-align: center;
+    color: coral;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.wether-items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background-color: rgba(32, 32, 32, 0.2);
+}
+
+.wether-basis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.wether-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: start;
+    height: 100%;
+    padding: 15px 15px 15px 0;
+    font-size: 0.8rem;
+}
+
+.temperature {
+    font-size: 1.7rem;
+}
+
+.weather-description {
+    font-size: 1rem;
+    padding-bottom: 3px;
+}
+
+.weather-icon {
+    width: 5rem;
+    height: 3rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.city-error {
+    width: 100%;
+    padding: 15px;
+}

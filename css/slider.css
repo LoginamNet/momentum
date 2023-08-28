@@ -1,0 +1,25 @@
+/*-------------------slider-------------------*/
+
+
+.slider-buttons {
+    position: absolute;
+    display: flex;
+    top: 50%;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 30px;
+}
+
+.slider-left,
+.slider-right {
+    width: 30px;
+    height: 30px;
+}
+
+.slider-left {
+    background-image: url('../assets/svg/slider-prev.svg');
+}
+
+.slider-right {
+    background-image: url('../assets/svg/slider-next.svg');
+}

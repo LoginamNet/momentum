@@ -1,0 +1,28 @@
+/*-------------------quote-------------------*/
+
+.quote-widget {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote-text {
+    font-style: italic;
+}
+
+.quote-reset {
+    height: 35px;
+    width: 35px;
+    background-image: url('../assets/svg/reload.svg');
+    transition: 0.3s;
+}

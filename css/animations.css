@@ -1,0 +1,131 @@
+/*-------------------transitions and keyframes-------------------*/
+
+@keyframes preloader-hidden {
+
+    100% {
+        opacity: 0;
+        visibility: hidden;
+    }
+  
+}
+
+@keyframes text-changer {
+
+    0% {opacity: 1;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+  
+}
+
+@keyframes lang-changer {
+
+    0% {opacity: 1;}
+    40% {opacity: 0;}
+    60% {opacity: 0;}
+    100% {opacity: 1;}
+  
+}
+
+@keyframes rotate {
+
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(360deg)}
+  
+}
+
+@keyframes half-rotate {
+
+    0% {transform: rotate(0deg)}
+    100% {transform: rotate(180deg)}
+  
+}
+
+@keyframes half-rotate-back {
+
+    0% {transform: rotate(180deg)}
+    100% {transform: rotate(0deg)}
+  
+}
+
+@keyframes menu-changer {
+    0% {
+        transform: translateY(0);
+        opacity: 0.8;
+        }
+    40% {
+        transform: translateY(-100px);
+        opacity: 0;
+        }
+    60% {
+        transform: translateY(-100px);
+        opacity: 0
+    }
+    100% {
+            transform: translateY(0);
+            opacity: 0.8;
+        }
+}
+
+.rotate {
+    animation-name: rotate;
+    animation-duration: 1s;
+}
+
+.half-rotate {
+    animation-name: half-rotate;
+    animation-duration: 0.5s;
+}
+
+.half-rotate-back {
+    animation-name: half-rotate-back;
+    animation-duration: 0.5s;
+}
+
+.text-change {
+    animation-name: text-changer;
+    animation-duration: 1s;
+}
+
+.lang-change {
+    animation-name: lang-changer;
+    animation-duration: 0.8s;
+}
+
+.block {
+    visibility: visible;
+    transition: 0.8s;
+}
+
+.hidden {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.preloader-hidden {
+    animation-name: preloader-hidden;
+    animation-duration: 0.5s;
+}
+
+.disabled {
+    display: none;
+}
+
+.button-disabled {
+    opacity: 0.2;
+    cursor: default;
+}
+
+.input-disabled {
+    border: 1px solid grey;
+    opacity: 0.5;
+    cursor: default;
+}
+
+.config-slide {
+    transform: translateY(0px);
+}
+
+.config-change {
+    animation-name: menu-changer;
+    animation-duration: 0.8s;
+}

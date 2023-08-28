@@ -1,0 +1,243 @@
+@media (max-width: 1300px) {
+    
+    html {
+        font-size: 16px;
+    }
+
+    main {
+        gap: 5px;
+    }
+
+    footer {
+        padding: 10px 30px 30px 30px;
+    }
+
+    .playlist{
+        max-height: 65%;
+    }
+
+    .todo-list {
+        max-height: 135%;
+    }
+
+    .time {
+        font-size: 4rem;
+    }
+    
+    .date {
+        font-size: 1.5rem;
+    }
+    
+    .greetings,
+    .name  {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 1150px) {
+
+    .player-widget,
+    .todo-widget,
+    .wether-widget {
+        width: 30%;
+    }
+
+}
+
+
+@media (max-width: 820px) {
+
+    header {
+        flex-wrap: wrap;
+        align-content:space-between;
+    }
+    
+    .player-widget,
+    .todo-widget,
+    .wether-widget {
+        width: 45%;
+    }
+
+    .playlist{
+        max-height: 87%;
+    }
+
+    .todo-list {
+        max-height: 275%;
+        background-color: rgba(0, 0, 0, 1);
+    }
+
+    .play-item {
+        background-color: rgba(0, 0, 0, 1);
+    }
+    
+    .play-item-even {
+        background-color: rgba(32, 32, 32, 1);
+    }
+
+    .todo-list li:nth-child(2n+1) {
+        background-color: rgba(32, 32, 32, 1);
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .config-button {
+        left: 5px;
+        bottom: 5px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    main {
+        gap: 5px;
+    }
+
+    footer {
+        padding: 0;
+    }
+
+    .config-box {
+        width: 90%;
+    }
+    
+    .player-widget,
+    .todo-widget {
+        width: 100%;
+    }
+
+    .wether-widget {
+        width: 80%;
+    }
+
+    .todo-input-box,
+    .city,
+    .todo-buttons-box {
+        background-color: rgba(32, 32, 32, 0.7);
+    }
+
+    .wether-items {
+        background-color: transparent;
+        gap: 15px;
+    }
+
+    .now-playing-cover {
+        flex-direction: row;
+        justify-content: space-around;
+        height: 4rem;
+        text-align: start;
+        box-shadow: none;
+    }
+
+    .now-plaing-box {
+        width: 50%;
+    }
+
+
+    .volume-playlist-box {
+        padding: 10px 15px;
+    }
+
+    .playlist {
+        max-height: 230%;
+    }
+
+    .todo-list {
+        max-height: 415%;
+    }
+
+    .play-item,
+    .todo-item {
+        padding: 10px 10px 10px 5px;
+        font-size: 1.1rem;
+    }
+
+    .city {
+        font-size: 1.1rem;
+    }
+
+    .player-box,
+    .todo-header-box {
+        width: 100%;
+    }
+
+    .wether-items {
+        flex-direction: row;
+    }
+
+    .todo-buttons-box {
+        padding: 7px 15px;
+    }
+
+
+    .city {
+        padding: 10px 15px;
+        background-color: transparent;
+    }
+
+    .wether-basis {
+        padding: 5px 0 0 15px;
+    }
+
+    .wether-text {
+        padding: 10px 30px 0 0;
+    }
+
+
+    .weather-icon {
+        width: 4rem;
+        height: 2rem;
+    }
+
+    .date-widget {
+        gap: 5px;
+    }
+
+    .slider-buttons {
+        padding: 0 10px;
+    }
+
+    .time {
+        font-size: 3rem;
+    }
+    
+    .date {
+        font-size: 1.3rem;
+    }
+    
+    .greetings,
+    .name  {
+        font-size: 1.2rem;
+    }
+
+    .quote-widget {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        max-width: 75%;
+    }
+
+    .quote {
+        font-size: 0.8rem;
+        gap: 5px;
+    }
+
+    .quote-reset {
+        height: 30px;
+        width: 30px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    html {
+        font-size: 14px;
+    }
+}

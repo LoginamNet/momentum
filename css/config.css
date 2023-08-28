@@ -1,0 +1,151 @@
+/*-------------------config-------------------*/
+
+.config-switcher {
+    width: 2.2rem;
+    height: 2.2rem;
+    background-size: 2.2rem 2.2rem;
+    background-image: url('../assets/svg/config.svg');
+    transition: 0.5s;
+}
+
+.config-button {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    z-index: 500;
+}
+
+.config-box {
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 390px;
+    color: #000;
+    transform: translateY(-100px);
+    transition: 0.5s;
+}
+
+.config-box section {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(204, 204, 204);
+    transition: 0.3s;
+}
+
+.config-box section:hover {
+    background-color: rgb(216, 216, 216);
+}
+
+.config-box input[type=radio] {
+    display: none;
+}
+
+.config-box label {
+    position: relative;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+.config-box label::before {
+    box-sizing: border-box;
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 1em;
+    height: 1em;
+    background-color: lightgray;
+    border: 3px solid grey;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.config-box input[type=radio]:checked + label:before {
+    background-color: black;
+    border: 3px solid coral;
+}
+
+.config-box :not(input[type=radio]:checked) + label:hover:before {
+    filter: brightness(120%);
+}
+
+.config-header {
+    padding-bottom: 5px;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+.language-box {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.bg-source {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 7px;
+    text-align: start;
+}
+
+.switcher {
+    position: relative;
+    flex-shrink: 0;
+    width: 2em;
+    height: 0.6em;
+    cursor: pointer;
+    background-color: grey;
+    border-radius: 0.3em;
+    transition: 0.5s;
+}
+
+.switch-point {
+    position: absolute;
+    top: -0.2em;
+    width: 1em;
+    height: 1em;
+    background-color: #000;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.tags {
+    margin-top: 10px;
+    padding: 3px 5px;
+    font-size: 1em;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid coral;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.tags-error {
+    color: red;
+}
+
+.widget-blocks {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.widget-block {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+}
+
+.checked {
+    background-color: coral;
+}
+
+.on-off {
+   transform: translateX(100%);
+}

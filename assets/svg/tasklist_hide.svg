@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="14"
+   height="14"
+   viewBox="0 0 14 14"
+   version="1.1"
+   id="svg14"
+   sodipodi:docname="tasklist_hide.svg"
+   inkscape:version="1.1.1 (3bf5ae0d25, 2021-09-20)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <defs
+     id="defs18" />
+  <sodipodi:namedview
+     id="namedview16"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="true"
+     showgrid="false"
+     inkscape:zoom="20.809143"
+     inkscape:cx="1.0572276"
+     inkscape:cy="5.1659984"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Icons"
+     units="mm"
+     width="14px" />
+  <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+  <title
+     id="title2">playlist_play</title>
+  <desc
+     id="desc4">Created with Sketch.</desc>
+  <g
+     id="Icons"
+     stroke="none"
+     stroke-width="1"
+     fill="none"
+     fill-rule="evenodd">
+    <g
+       id="Rounded"
+       transform="translate(-105,-999)">
+      <g
+         id="AV"
+         transform="translate(100,852)">
+        <g
+           id="-Round-/-AV-/-playlist_play"
+           transform="translate(0,142)">
+          <g
+             id="g8">
+            <rect
+               id="Rectangle-Copy-60"
+               x="0"
+               y="0"
+               width="24"
+               height="24" />
+            <path
+               d="m 6,9 h 10 c 0.55,0 1,0.45 1,1 0,0.55 -0.45,1 -1,1 H 6 C 5.45,11 5,10.55 5,10 5,9.45 5.45,9 6,9 Z M 6,5 h 10 c 0.55,0 1,0.45 1,1 0,0.55 -0.45,1 -1,1 H 6 C 5.45,7 5,6.55 5,6 5,5.45 5.45,5 6,5 Z m 0,8 h 6 c 0.55,0 1,0.45 1,1 0,0.55 -0.45,1 -1,1 H 6 C 5.45,15 5,14.55 5,14 5,13.45 5.45,13 6,13 Z"
+               id="🔹Icon-Color"
+               fill="#1d1d1d"
+               sodipodi:nodetypes="sssssssssssssssssssss"
+               style="fill:#ffffff;fill-opacity:1" />
+          </g>
+        </g>
+      </g>
+    </g>
+    <path
+       d="M 13.758819,9.9709811 12.002716,8.1773834 c -0.330983,-0.3282318 -0.870342,-0.3259794 -1.198574,0.005 -0.328233,0.3309846 -0.32111,0.8655036 0.005,1.1985765 l 1.756102,1.7935971 c 0.326111,0.333074 0.870343,0.32598 1.198575,-0.005 0.328232,-0.330985 0.325979,-0.870344 -0.005,-1.1985759 z"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.847528"
+       id="path973-6"
+       sodipodi:nodetypes="ccssssc" />
+    <path
+       d="m 8.958106,9.978562 1.756103,-1.7935977 c 0.330983,-0.3282318 0.870342,-0.3259794 1.198574,0.005 0.328233,0.3309846 0.32111,0.8655036 -0.005,1.1985765 l -1.756102,1.7935972 c -0.326111,0.333074 -0.870343,0.32598 -1.198575,-0.005 -0.328232,-0.330985 -0.325979,-0.870344 0.005,-1.198576 z"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.847528"
+       id="path973-6-6"
+       sodipodi:nodetypes="ccssssc" />
+    <path
+       d="m 12.198165,8.7143872 v 4.5306468 c 0,0.415309 -0.381388,0.755108 -0.847528,0.755108 -0.466141,0 -0.847529,-0.339799 -0.847529,-0.755109 V 8.7143872 c 0,-0.4153092 0.381388,-0.7551079 0.847528,-0.7551079 0.466141,6e-7 0.847529,0.3397987 0.847529,0.7551079 z"
+       style="fill:#ffffff;fill-opacity:1;stroke-width:0.799984"
+       id="path973-9" />
+  </g>
+  <metadata
+     id="metadata999">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>playlist_play</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>

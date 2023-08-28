@@ -1,0 +1,38 @@
+/*-------------------date-and-hello-------------------*/
+
+.date-widget {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.time {
+    font-size: 5rem;
+}
+
+.date {
+    font-size: 1.4rem;
+}
+
+.greetings {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    font-size: 1.8rem;
+}
+
+.hello {
+    text-align: end;
+}
+
+.name {
+    font-size: 1.8rem;
+}
+
+.name-length {
+    position: absolute;
+    visibility: hidden;
+}
